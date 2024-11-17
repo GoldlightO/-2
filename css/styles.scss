@@ -1,0 +1,892 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+body{
+    background-color: #131517;
+}
+.header{
+    width: 100%;
+}
+
+.navbar{
+    background-color: #1E1F25;
+}
+
+.nav-link{
+    color: #ADB3BF;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.btnHeader{
+    color: #FFFFFF;
+    height: 45px;
+    width: 85px;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.cryptoBrains{
+    background-image: url("/content/Bg1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cryptoBrainsBlueRow{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    align-items: center;
+}
+
+.cryptoBrainsTagBlock{
+    width: 30px;
+    height: 1px;
+    background-color: #1B70F1;
+    margin-right: 5px;
+}
+
+.cryptoBrainsTag{
+    color: #1B70F1;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    margin-bottom: 0px;
+}
+
+.cryptoBrainsHeader{
+    color: #FFFFFF;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 84px;
+    font-weight: 600;
+    line-height: 105.59px;
+    letter-spacing: -1px;
+}
+
+.cryptoBrainsUnderHeader{
+    color: #ADB3BF;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.statsGrid{
+    background: #1E1F25;
+    align-items: center;
+}
+
+.verticalLine{
+    width: 1px;
+    height: 60px;
+    background-color: #FFFFFF;
+}
+
+.cryptoBrainsGridHeader{
+    color: #FFFFFF;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 72.91px;
+    text-align: left;
+}
+
+.cryptoBrainsGridText{
+    color: #CFD3DA;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+}
+
+.numberSlide{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 57.82px;
+    text-align: left;
+    color:#FFFFFF33;
+}
+
+.sliderHeader{
+    color: #FFFFFF;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 72.91px;
+    text-align: left;
+}
+
+.sliderText{
+    color: #ADB3BF;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+
+.tradersRewiewHeaderLine{
+    align-items: center;
+    border-bottom: 1px solid #FFFFFF33;
+    margin-bottom: 50px;
+}
+
+.tradersRewiewHeader{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 72.91px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.tradersRewiewText{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #ADB3BF;
+}
+
+.tradersRewiew{
+    background-image: url("/content/Ellipse2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.JDUAcard{
+    background-color: #272A34;
+    width: Fixed (645px)px;
+    height: Hug (326px)px;
+    padding: 40px 30px 40px 30px;
+    gap: 30px;
+    border-radius: 10px;
+    opacity: 0px;
+}
+
+.westernMan{
+    width: 95px;
+    height: 72px;
+}
+
+.JDUA{
+    margin-bottom: 15px;
+}
+
+.JDTxt{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.UATxt{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #BFC4CD;
+}
+
+.tardersSliderText{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.meetOurTeam{
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.meetOurTeamHeader{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 72.91px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.meetOurTeampreHeader{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: #ADB3BF;
+}
+
+.meetOurTeamCardHeaderText{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.meetOurTeamCardPreHeaderText{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #ADB3BF;
+}
+
+.subscribe{
+    margin-bottom: 150px;
+    padding: 10px;
+}
+
+.subscribeBlock{
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+    background-color: #1E1F25;
+    background-image: url(/content/Ellipse3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.subscribeBlockLeftCols{
+    padding: 50px;
+}
+
+.subscribeBlockHeader{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 72.91px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+.subscribeBlockPreHeader{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ADB3BF;
+    margin-bottom: 100px;
+}
+
+#exampleInputEmail1{
+    width: Fixed (335px);
+    height: Fixed (100px);
+    padding: 17px 20px 17px 20px;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px;
+    opacity: 0px;
+    border-color: #FFFFFF;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #CFD3DA;
+    background-color: #272A34;
+}
+
+.btn-primary2{
+    width: 240px;
+    height: 58px;
+    padding: 13px 26px 13px 26px;
+    gap: 10px;
+    border-radius: 4px;
+    opacity: 0px;
+    background-color: #1B70F1;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+.manWorkImg{
+    width: 580px;
+    height: 480px;
+}
+
+footer{
+    background-image: url(/content/FooterBg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px;
+}
+
+.footerLogo{
+    width: 193px;
+    height: 37px;
+}
+
+.footerFirstLineText{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FDFDFD;
+}
+
+.footerSocials{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.rovno1{
+    display: flex;
+    justify-content: flex-end;
+}
+
+hr{
+    color: #FFFFFF;
+}
+
+h5{
+    color: #FDFDFD;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 1rem;
+}
+
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+a{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ADB3BF;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #828283;
+}
+
+.specialA{
+    width: 109px;
+    height: 28px;
+    padding: 4px 8px 4px 8px;
+    gap: 10px;
+    border-radius: 2px;
+    opacity: 0px;
+    background-color: #1B70F11A;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #1B70F1;
+    cursor: pointer;
+}
+
+.specialA:hover{
+    background-color: #0066ff1a;
+}
+
+.rightsStyle{
+    color: #FDFDFD;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.btn-secondary{
+    background-color: transparent;
+    border-color: #FFFFFF33;
+}
+
+.crypto-brains {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+}
+.crypto-brains h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.crypto-brains p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+.crypto-brains .btn {
+    font-size: 1.25rem;
+    padding: 10px 30px;
+}
+
+.referFriends{
+    background-image: url("/content/referense/Bg1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+.referFriendsHeader{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 84px;
+    font-weight: 600;
+    line-height: 105.59px;
+    letter-spacing: -1px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ECEEF0;
+}
+
+.referFriendsPreHeader{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ADB3BF;
+    margin-bottom: 70px;
+}
+
+.how-to-earn {
+    padding: 10px;
+}
+.how-to-earn h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.how-to-earn .nav-tabs .nav-link {
+    font-size: 1.25rem;
+}
+.how-to-earn .tab-content {
+    margin-top: 20px;
+}
+.how-to-earn .tab-pane {
+    padding: 20px;
+    border-top: none;
+}
+
+.how-to-earn-Header{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 72.91px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.tbNumbers{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 57.82px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF33;
+}
+
+.tbHeader{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 45.25px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:  #FFFFFF;
+}
+
+.tbText{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ADB3BF;
+    margin-bottom: 70px;
+}
+
+.unicNav{
+    height: 100px;
+    padding: 10px 20px 10px 20px;
+    gap: 80px;
+    border-radius: 6px;
+    border: 1px;
+    opacity: 0px;
+    background-color: #1E1F25;
+}
+
+.nav-item{
+    height: 85px;
+    padding: 15px 35px 15px 35px;
+    gap: 10px;
+    border-radius: 4px;
+    opacity: 0px;
+}
+
+.unicNavLink{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.unicNav .nav-link {
+    background-color: #1E1F25; /* Цвет фона неактивных табов */
+}
+
+.unicNav .nav-link.active {
+    background-color: #272A34; /* Цвет фона активного таба */
+}
+
+.unicNav .nav-link:hover {
+    background-color: #272A34; /* Цвет фона при наведении */
+    color: #FFFFFF;
+}
+
+.hurryUp{
+    background-image: url("/content/referense/Bg 2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.hurryUpHeader{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 72.91px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+.hurryUpPreHeader{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ADB3BF;
+    margin-bottom: 70px;
+}
+
+.questions{
+    background-image: url("/content/referense/Bg 3.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+.questionHeader{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 72.91px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+.questionPreHeader{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ADB3BF;
+}
+
+.questionLine{
+    margin-bottom: 40px;
+}
+
+.card{
+    background-color: transparent;
+}
+
+.card:hover{
+    background-color: #363636;
+}
+
+.accordion .card-header button {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.accordion .card-body {
+    color: #ADB3BF;
+}
+
+.joinProgramm{
+    background-image: url("/content/career/Bg 1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+
+.joinProgrammHeader{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 84px;
+    font-weight: 600;
+    line-height: 105.59px;
+    letter-spacing: -1px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    margin-top: 80px;
+}
+
+.joinProgrammPreHeader{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:#ADB3BF;
+    margin-bottom: 80px;
+}
+
+.becomeAff{
+    width: 240px;
+    height: 56px;
+    padding: 13px 26px 13px 26px;
+    gap: 10px;
+    border-radius: 4px;
+    opacity: 0px;
+    background-color: #1B70F1;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+.alreadyAff{
+    width: 240px;
+    height: 56px;
+    padding: 13px 26px 13px 26px;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid #1B70F1;
+    opacity: 0px;
+    background-color: transparent;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #1B70F1;
+}
+
+.trading{
+    padding: 10px;
+}
+
+.tradingHeader{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 72.91px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+.tradingPreHeader{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ADB3BF;
+}
+
+.tradingBlockHeader{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+.numberTrading{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 45.25px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #808A9A;
+}
+
+.tradingBlockPreHeader{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ADB3BF;
+}
+
+.earnUp{
+    padding: 10px;
+}
+
+.commission-block {
+    padding: 30px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.earnUpHeader{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 72.91px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+.comissionLine{
+    border-radius: 4px;
+    border: 1px solid #272A34;
+    opacity: 0px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.comissionLineHeader{
+    height: 100%;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #CFD3DA;
+    display: flex;
+    align-items: center;
+}
+
+.comissionLinePreHeader{
+    height: 100%;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ADB3BF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 400px) {
+    .cryptoBrainsHeader{
+        font-size: 60px;
+    }
+
+    .subscribeBlockHeader{
+        font-size: 40px;
+    }
+
+    .manWorkImg{
+        height: 250px;
+    }
+}
